@@ -90,3 +90,17 @@ Attribution d’une adresse IP fixe via adresse MAC :
 
 ```powershell
 ipconfig /all
+✔ Résultat attendu :
+- Adresse IP attribuée par DHCP  
+- Passerelle correcte  
+- DNS configuré  
+
+![Client DHCP](images/ipconfig-client.png)
+
+---
+
+### Renouvellement du bail
+
+```powershell
+ipconfig /release
+ipconfig /renew
